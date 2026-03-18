@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deskband – Privacy Policy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f13;
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 680px;
+      width: 100%;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 48px;
+    }
+
+    .logo {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, #a78bfa, #7c3aed);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #888;
+      margin-top: 2px;
+    }
+
+    .card {
+      background: #1a1a22;
+      border: 1px solid #2a2a35;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #a78bfa;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #c0c0cc;
+      margin-bottom: 12px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .highlight {
+      background: #2a2a3a;
+      border-left: 3px solid #a78bfa;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 15px;
+      color: #d0d0e0;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      margin: 12px 0;
+    }
+
+    ul li {
+      font-size: 15px;
+      color: #c0c0cc;
+      line-height: 1.7;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "·";
+      position: absolute;
+      left: 6px;
+      color: #a78bfa;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #555;
+      margin-top: 40px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1e2a1e;
+      border: 1px solid #2a4a2a;
+      color: #6fcf97;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="logo">🐾</div>
+      <div>
+        <h1>Deskband</h1>
+        <div class="subtitle">Privacy Policy</div>
+      </div>
+    </div>
+
+    <div class="badge">✓ No data collection · No tracking · No servers</div>
+
+    <div class="card">
+      <h2>Overview</h2>
+      <p>Deskband is a browser companion character that animates alongside your browsing activity. Your privacy is fully protected — the extension operates entirely on your own device and never communicates with any external server.</p>
+    </div>
+
+    <div class="card">
+      <h2>What data is stored</h2>
+      <p>Deskband stores the following information locally on your device using <code style="background:#2a2a3a;padding:2px 6px;border-radius:4px;font-size:13px;">chrome.storage.local</code>:</p>
+      <ul>
+        <li>Keystroke count (today, yesterday, all-time best)</li>
+        <li>Mouse click count (today, yesterday)</li>
+        <li>XP points and level</li>
+        <li>Character position on screen</li>
+        <li>Current date (for daily stat rollover)</li>
+      </ul>
+      <div class="highlight">
+        This data exists only on your device. It is never transmitted, uploaded, or shared with anyone — including the developer.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>What data is NOT collected</h2>
+      <p>Deskband does not collect, store, or transmit:</p>
+      <ul>
+        <li>The content of any keystrokes (only the count)</li>
+        <li>Your browsing history or visited URLs</li>
+        <li>Any personally identifiable information</li>
+        <li>Location data</li>
+        <li>Any data about the websites you visit</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Third parties</h2>
+      <p>Deskband does not share any data with third parties. There are no analytics services, advertising networks, or external APIs involved. The extension contains no remote code — all logic runs locally from the installed package.</p>
+    </div>
+
+    <div class="card">
+      <h2>Why all URLs?</h2>
+      <p>Deskband uses the <code style="background:#2a2a3a;padding:2px 6px;border-radius:4px;font-size:13px;">&lt;all_urls&gt;</code> permission so the companion character can appear on every page you visit. This permission is used only to inject the visual overlay — it is not used to read, access, or record any page content.</p>
+    </div>
+
+    <div class="card">
+      <h2>Changes to this policy</h2>
+      <p>If this privacy policy ever changes, the updated version will be posted at this URL. The extension will be updated in the Chrome Web Store accordingly.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Questions? Reach out via the Chrome Web Store listing page.</p>
+    </div>
+
+    <div class="footer">
+      Last updated: March 2026 · Deskband by Steph
+    </div>
+
+  </div>
+</body>
+</html>
